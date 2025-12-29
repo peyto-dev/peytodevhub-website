@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peyto Dev Hub | Development Studio</title>
+    <meta name="description" content="Professional software development studio specializing in milestone-based delivery, full IP ownership, and high-performance engineering." />
+    <meta name="theme-color" content="#FFFFFF" />
+    
+    <!-- Security: Referrer Policy -->
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              peyto: {
+                bg: '#FFFFFF',
+                bgSecondary: '#F8FAFC',
+                card: '#FFFFFF',
+                accent: '#2563EB',
+                blue: '#3B82F6',
+                border: '#E2E8F0',
+                borderStrong: '#CBD5E1',
+                textPrimary: '#0F172A',
+                textSecondary: '#475569',
+                textMuted: '#94A3B8',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            maxWidth: {
+              'peyto': '1240px',
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --peyto-bg: #FFFFFF;
+      }
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 80px;
+        background-color: var(--peyto-bg);
+      }
+      body {
+        background-color: var(--peyto-bg);
+        color: #0F172A;
+        font-family: 'Inter', sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #F8FAFC;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #CBD5E1;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94A3B8;
+      }
+      .peyto-card {
+        background-color: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        border-radius: 12px;
+        transition: all 0.3s ease;
+      }
+      .peyto-card:hover {
+        border-color: #2563EB;
+        box-shadow: 0 10px 40px -10px rgba(37, 99, 235, 0.1);
+      }
+      .peyto-container {
+        max-width: 1240px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+      .hero-grid {
+        background-image: linear-gradient(rgba(37, 99, 235, 0.03) 1px, transparent 1px),
+                          linear-gradient(90deg, rgba(37, 99, 235, 0.03) 1px, transparent 1px);
+        background-size: 60px 60px;
+      }
+      .glass-morphism {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      .animate-float {
+        animation: float 6s ease-in-out infinite;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.22.3?external=react,react-dom",
+    "@remix-run/router": "https://esm.sh/@remix-run/router@1.15.3",
+    "framer-motion": "https://esm.sh/framer-motion@10.18.0?external=react,react-dom",
+    "lucide-react": "https://esm.sh/lucide-react@0.344.0?external=react,react-dom",
+    "recharts": "https://esm.sh/recharts@2.12.2?external=react,react-dom",
+    "react-dom/": "https://esm.sh/react-dom@^18.2.0/",
+    "react/": "https://esm.sh/react@^18.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

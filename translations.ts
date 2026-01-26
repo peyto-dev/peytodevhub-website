@@ -27,7 +27,7 @@ export const translations = {
       operational: 'Status: Operational',
       donation_note: '1% Social Impact Pledge',
       jurisdiction: 'Jurisdiction: Hong Kong (HKSAR)',
-      reg_no: 'CR No.: 3348251',
+      reg_no: '',
       legal_disclaimer: [
         'Peyto Dev Hub Limited is a commercial software development studio.',
         'We do not accept public donations and do not conduct fundraising activities.',
@@ -265,7 +265,7 @@ export const translations = {
       operational: '系統狀態：運作正常',
       donation_note: '1% 社會回饋承諾',
       jurisdiction: '司法管轄區：香港 (HKSAR)',
-      reg_no: '公司註冊編號：3348251',
+      reg_no: '',
       legal_disclaimer: [
         'Peyto Dev Hub Limited 為商業軟件開發工作室。',
         '本公司不接受公眾捐款，亦不進行任何募捐活動。',
